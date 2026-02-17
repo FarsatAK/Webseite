@@ -1,0 +1,187 @@
+/* ==============================
+   Globale Styles
+============================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2, h3, p {
+    margin: 10px 0;
+}
+
+/* ==============================
+   Navigation
+============================== */
+ul {
+    display: flex;
+    list-style: none;
+    background-color: #353a33;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    display: block;
+    color: rgb(198, 53, 53);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #11a816;
+    color: white;
+}
+
+/* ==============================
+   Header
+============================== */
+header {
+    background-color: #353a33;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* ==============================
+   Hero Section
+============================== */
+.contact-hero {
+    height: 350px;
+    background: linear-gradient(rgba(243, 4, 4, 0.85), rgba(180, 0, 0, 0.85)),
+                url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.contact-hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.contact-hero p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* ==============================
+   Main Content
+============================== */
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+ul.services-list {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul.services-list li {
+    margin-bottom: 8px;
+}
+
+/* ==============================
+   Formulare
+============================== */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    margin-top: 15px;
+    background-color: #353a33;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #11a816;
+}
+
+/* ==============================
+   Footer
+============================== */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 2rem;
+}
+
+footer a {
+    color: #ccc;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* ==============================
+   Responsivität
+============================== */
+@media (max-width: 768px) {
+    .contact-hero h1 {
+        font-size: 36px;
+    }
+    .contact-hero p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    ul {
+        flex-direction: column;
+    }
+    ul li a {
+        padding: 10px;
+    }
+}
