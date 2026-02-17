@@ -1,0 +1,146 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background:#111;
+    color:#fff;
+    overflow: hidden;
+    text-decoration: none;
+    display: block;
+    
+  
+ 
+   
+}
+.navbar nav a:hover {
+    background-color: #11a816;
+}
+.navbar nav a{
+    color:rgb(241, 245, 242);
+    margin-left:20px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+/* ===== HERO ===== */
+.hero{
+    background:#d62828;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+/* ===== CONTACT SECTION ===== */
+.contact-container{
+    display:flex;
+    padding:60px 10%;
+    gap:40px;
+}
+
+.contact-left,
+.contact-info{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+/* البطاقة */
+.info-card{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    background:white;
+    padding:18px 20px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    border:1px solid #eee;
+}
+
+/* البطاقة المميزة (WhatsApp) */
+.info-card.highlight{
+    border:2px solid #d62828;
+    
+}
+.info-card.highlight{
+    border:2px solid #d62828;
+}
+
+.phone-link{
+    color: red;
+    transition: color 0.3s ease;
+}
+
+.phone-link:hover{
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+
+/* الايقونة */
+.icon{
+    font-size:22px;
+    color:#d62828;
+}
+
+/* النصوص */
+.label{
+    margin:0;
+    color:#777;
+    font-size:14px;
+}
+
+.info-card h4{
+    margin:2px 0 0 0;
+    color:#d62828;
+    font-weight:600;
+}
+.contact-right{
+    flex:1;
+}
+.email-link {
+    color: red;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.email-link:hover {
+    color: blue;
+}
+.contact-link {
+    color: red;                /* normal color */
+    transition: color 0.3s ease; /* smooth hover */
+}
+
+.contact-link:hover {
+    text-decoration: underline; /* underline */
+    color: blue;               /* color on hover */
+}
+/* ===== FORM ===== */
+form input,
+form textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+}
+
+form button{
+    background:#d62828;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    cursor:pointer;
+}

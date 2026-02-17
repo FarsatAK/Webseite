@@ -1,71 +1,108 @@
 <!DOCTYPE html>
-<html lang="de"> <head>
-<meta name="keywords" content="HTML" /> 
-<title>My First HTML Document</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kontaktieren Sie uns</title>
-<link rel="stylesheet" href="hh.css">
- </head>
- <body> <ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-<!-- Contact Hero Section -->
-<section class="contact-hero">
-    <div class="overlay">
-        <h1>Kontaktieren Sie uns</h1>
-        <p>
-            Wir beraten Sie gerne persönlich zu unseren Facility<br>
-            Management Services
-        </p>
-    </div>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="web.css">
+    
+</head>
+<body>
+
+<!-- ====== NAVBAR ====== -->
+<header class="navbar">
+    <div class="logo">ISOU Facility</div>
+    <nav>
+        <a href="#">STARTSEITE</a>
+        <a href="#">LEISTUNGEN</a>
+        <a href="#">ÜBER UNS</a>
+        <a href="#">KONTAKT</a>
+        <a href="#">LOGIN</a>
+    </nav>
+</header>
+
+<!-- ====== HERO RED SECTION ====== -->
+<section class="hero">
+    <h1>Kontaktieren Sie uns</h1>
+    <p>Wir beraten Sie gerne persönlich zu unseren Facility Management Services</p>
 </section>
-<div class="container">
 
-    <h1>So erreichen Sie uns</h1>
+<!-- ====== CONTACT SECTION ====== -->
+<section class="contact-container">
 
-    <p class="desc">
-        Wir sind für Sie da! Kontaktieren Sie uns gerne telefonisch für ein unverbindliches
-        Angebot oder eine persönliche Beratung zu unseren Facility Management Services.
-    </p>
+    <!-- LEFT SIDE -->
+    <div class="contact-left">
+        <h2>So erreichen Sie uns</h2>
+        <p>
+            Wir sind für Sie da! Kontaktieren Sie uns gerne telefonisch 
+            für ein unverbindliches Angebot oder eine persönliche Beratung.
+        </p>
+        <div class="contact-info">
 
-    <div class="card red">
-        <div class="icon">👤</div>
+    <div class="info-card">
+        <span class="icon">👤</span>
         <div>
-            <div class="label">Geschäftsführer</div>
-            <div class="value">farsatAK</div>
+            <p class="label">Geschäftsführer</p>
+            <h4>FarstaAK</h4>
         </div>
     </div>
 
-    <div class="card">
-        <div class="icon">📞</div>
+    <div class="info-card">
+        <span class="icon">📞</span>
         <div>
-            <div class="label">Telefon</div>
-            <div class="value">+9647515142893</div>
+            <p class="label">Telefon</p>
+            <a href="tel:+9647515142893" class="contact-link">
+                        +964 751 514 2893
+</a>
         </div>
     </div>
 
-    <div class="card">
-        <div class="icon">💬</div>
+    <div class="info-card highlight">
+        <span class="icon">💬</span>
         <div>
-            <div class="label">WhatsApp</div>
-            <div class="value">+9647515142893</div>
+            <p class="label">WhatsApp</p>
+        
+         <a href="https://wa.me/9647515142893" target="_blank" class="phone-link">
+            
+             +9647515142893
+            </a>
         </div>
     </div>
 
-    <div class="card">
-        <div class="icon">✉️</div>
+    <div class="info-card">
+        <span class="icon">✉️</span>
         <div>
-            <div class="label">E-Mail</div>
-            <div class="value">info@yahoo.com</div>
+            <p class="label">E-Mail</p>
+           <a href="mailto:dilhazhaji12@email.com" 
+            class="email-link">
+           dilhazhaji12@gmail.com
+</a>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <span class="icon">📍</span>
+        <div>
+            <p class="label">Adresse</p>
+            <h4>Hansastr. 109, 51149 Köln</h4>
         </div>
     </div>
 
 </div>
+    </div>
 
+    <!-- RIGHT SIDE -->
+    <div class="contact-right">
+        <h2>Schreiben Sie uns</h2>
 
-</body> </html>
+        <form>
+            <input type="text" placeholder="Ihr Name*" required>
+            <input type="email" placeholder="Ihre E-Mail*" required>
+            <textarea placeholder="Ihre Nachricht"></textarea>
+            <button type="submit">Senden</button>
+        </form>
+    </div>
+
+</section>
+
+</body>
+</html>
