@@ -4,6 +4,7 @@ body {
 }
 
 .contact-hero {
+  
     height: 350px;
     background: linear-gradient(rgba(243, 4, 4, 0.85), rgba(180, 0, 0, 0.85)),
                 url("background.jpg"); /* optional background image */
@@ -57,3 +58,63 @@ ul li a {
 ul li a:hover {
   background-color: #11a816;
 }
+body{
+        font-family: Arial, Helvetica, sans-serif;
+        background:#f6f6f6;
+        margin:0;
+        padding:40px 15px;
+        color:#333;
+    }
+
+    .container{
+        max-width:700px;
+        margin:auto;
+        background:#fff;
+        padding:30px;
+        border-radius:10px;
+        box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    h1{
+        color:#e53935;
+        margin-bottom:15px;
+    }
+
+    .desc{
+        margin-bottom:25px;
+        line-height:1.6;
+    }
+
+    .card{
+        border:1px solid #eee;
+        border-radius:10px;
+        padding:18px 20px;
+        margin-bottom:15px;
+        display:flex;
+        align-items:center;
+        gap:15px;
+        background:#fafafa;
+    }
+
+    .card.red{
+        border:2px solid #f1b5b5;
+        background:#fff;
+    }
+
+    .icon{
+        font-size:22px;
+        color:#e53935;
+        width:30px;
+        text-align:center;
+    }
+
+    .label{
+        font-size:14px;
+        color:#777;
+    }
+
+    .value{
+        font-size:18px;
+        color:#e53935;
+        font-weight:bold;
+    }
