@@ -66,6 +66,13 @@ body{
     border-radius:10px;
     box-shadow:0 4px 12px rgba(0,0,0,0.08);
     border:1px solid #eee;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    
+}
+.info-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 /* البطاقة المميزة (WhatsApp) */
@@ -79,14 +86,23 @@ body{
 
 .phone-link{
     color: red;
-    transition: color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;   /* required for transform */
+    transition: transform 0.3s ease, color 0.3s ease;
+   
+    
 }
 
 .phone-link:hover{
     text-decoration: underline;
     color: blue;
+    transform: scale(1.05);   /* zoom */
+    box-shadow: none;
+    
     
 }
+
+
 
 
 /* الايقونة */
@@ -102,6 +118,7 @@ body{
     font-size:14px;
 }
 
+
 .info-card h4{
     margin:2px 0 0 0;
     color:#d62828;
@@ -114,20 +131,29 @@ body{
     color: red;
     text-decoration: underline;
     transition: color 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .email-link:hover {
     color: blue;
+    transform: scale(1.05);   /* zoom */
+    box-shadow: none;
 }
 .contact-link {
     color: red;                /* normal color */
     transition: color 0.3s ease; /* smooth hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
 }
 
 .contact-link:hover {
     text-decoration: underline; /* underline */
-    color: blue;               /* color on hover */
+    color: blue;/* color on hover */
+    transform: scale(1.05);
+    box-shadow: none;
 }
+
+
 /* ===== FORM ===== */
 form input,
 form textarea{
