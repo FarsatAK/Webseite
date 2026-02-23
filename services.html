@@ -4,24 +4,82 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FacilityPro Services - Leistungen</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="web.css">
 </head>
 <body>
 
-  <header>
-    <h1>FacilityPro Services</h1>
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="logo">ISOU Facility</div>
     <nav>
-      <ul>
-        <li><a href="index.html">Startseite</a></li>
-        <li><a href="services.html">Leistungen</a></li>
-        <li><a href="about.html">Über uns</a></li>
-        <li><a href="contact.html">Kontakt</a></li>
-      </ul>
+        <a href="index.html">STARTSEITE</a>
+        <a href="services.html">LEISTUNGEN</a>
+        <a href="about.html">ÜBER UNS</a>
+        <a href="contact.html">KONTAKT</a>
     </nav>
   </header>
 
-  <main>
-    <h2>Unsere Leistungen</h2>
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <h1>Unsere Leistungen</h1>
+    <p>Wir bieten professionelle Facility Management Services</p>
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section class="services-container">
+
+    <div class="service-card">
+      <span class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32">
+          <path fill="#d62828" d="M64 48c-8.8 0-16 7.2-16 16v384c0 8.8 7.2 16 16 16h80v-80c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32v80h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64z"/>
+        </svg>
+      </span>
+      <div class="card-content">
+        <h3>Gebäudereinigung</h3>
+        <p>Wir reinigen Ihre Räume professionell und zuverlässig.</p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <span class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32">
+          <path fill="#d62828" d="M488 128H24c-13.3 0-24 10.7-24 24v208c0 13.3 10.7 24 24 24h464c13.3 0 24-10.7 24-24V152c0-13.3-10.7-24-24-24zm-24 208H48V176h416v160z"/>
+        </svg>
+      </span>
+      <div class="card-content">
+        <h3>Glasreinigung</h3>
+        <p>Saubere Fenster, innen und außen, für ein perfektes Erscheinungsbild.</p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <span class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32">
+          <path fill="#d62828" d="M502.6 70.6L441.4 9.4c-12.5-12.5-32.8-12.5-45.3 0L392 13.7 498.3 120l4.7-4.7c12.5-12.5 12.5-32.8 0-45.3zM0 352v112c0 13.3 10.7 24 24 24h112c2.1 0 4.2-.3 6.2-.9L448 88.1 423.9 64 88.1 399.8c-.6 2-0.9 4.1-.9 6.2H24c-13.3 0-24-10.7-24-24V352h0z"/>
+        </svg>
+      </span>
+      <div class="card-content">
+        <h3>Baureinigung</h3>
+        <p>Effiziente Reinigung von Baustellen und Neubauten.</p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <span class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32">
+          <path fill="#d62828" d="M400 64H112c-8.8 0-16 7.2-16 16v352c0 8.8 7.2 16 16 16h288c8.8 0 16-7.2 16-16V80c0-8.8-7.2-16-16-16zM128 400V96h256v304H128z"/>
+        </svg>
+      </span>
+      <div class="card-content">
+        <h3>Unterhaltsreinigung</h3>
+        <p>Regelmäßige Reinigung für Büros, Unternehmen und Wohnräume.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ===== EXTRA CONTENT ===== -->
+  <section class="content-container">
     <ul>
       <li>Gebäudereinigung</li>
       <li>Glasreinigung</li>
@@ -31,7 +89,7 @@
       <li>Isolierarbeiten</li>
       <li>Schimmelentfernung</li>
     </ul>
-  </main>
+  </section>
 
   <div id="footer-placeholder"></div>
   <script src="script.js"></script>
