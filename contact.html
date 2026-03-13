@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FacilityPro Services - Kontakt</title>
+  <title>Gebäudereinigung Services - Kontakt</title>
   <link rel="stylesheet" href="web.css">
 </head>
 <body>
 
 <header class="navbar">
-    <div class="logo">ISOU Facility</div>
+    <a href="index.html" class="logo">Lian Gebäudereinigung</a>
     <nav>
         <a href="index.html">STARTSEITE</a>
         <a href="services.html">LEISTUNGEN</a>
-        <a href="about.html">ÜBER UNS</a>
+        <a href="aboutus.html">ÜBER UNS</a>
         <a href="contact.html">KONTAKT</a>
     </nav>
 </header>
@@ -21,7 +21,8 @@
  <!-- ====== HERO RED SECTION ====== -->
 <section class="hero">
   <h1>Kontaktieren Sie uns</h1>
-  <p>Wir beraten Sie gerne persönlich zu unseren Facility Management Services</p>
+  <p>Ihre Zufriedenheit steht für uns an erster Stelle. 
+    Gerne beraten wir Sie persönlich zu unseren Reinigungsservices und erstellen ein passendes Konzept für Ihre Bedürfnisse.</p>
 </section>
 
 <!-- ====== CONTACT SECTION ====== -->
@@ -41,7 +42,7 @@
       <span class="icon">👤</span>
       <div>
           <p class="label">Geschäftsführer</p>
-          <h4>FarstaAK</h4>
+          <h4>Basem Qoro Khalaf</h4>
       </div>
   </div>
 
@@ -49,8 +50,8 @@
       <span class="icon">📞</span>
       <div>
           <p class="label">Telefon</p>
-          <a href="tel:+9647515142893" class="contact-link">
-                      +964 751 514 2893
+          <a href="tel:+4917671706032 " class="contact-link">
+            +4917671706032
 </a>
       </div>
   </div>
@@ -60,9 +61,9 @@
       <div>
           <p class="label">WhatsApp</p>
       
-       <a href="https://wa.me/9647515142893" target="_blank" class="phone-link">
+       <a href="https://wa.me/4917671706032" target="_blank" class="phone-link">
           
-           +9647515142893
+        +4917671706032
           </a>
       </div>
   </div>
@@ -71,24 +72,24 @@
       <span class="icon">✉️</span>
       <div>
           <p class="label">E-Mail</p>
-         <a href="mailto:dilhazhaji12@email.com" 
+         <a href="f" 
           class="email-link">
-         dilhazhaji12@gmail.com
+         info@lian-gebaeudereinigung.de
 </a>
       </div>
   </div>
 
-  <div class="info-card">
+  <!-- <div class="info-card">
       <span class="icon">📍</span>
       <div>
           <p class="label">Adresse</p>
           <a href="https://www.google.com/maps?q=100m+Street+Erbil+Iraq" 
  target="_blank" 
  class="contact-link">
- 100m Street, Erbil, Iraq
+ Stresemannstraße 3, 51149 köln 
 </a>
       </div>
-  </div>
+  </div> -->
 
 </div>
 <div class="info-card">
@@ -107,21 +108,21 @@
   <!-- RIGHT SIDE -->
   <div class="contact-right">
       <h2>Schreiben Sie uns</h2>
-
-      <form>
-          <input type="text" placeholder="Ihr Name*" required>
-          <input type="email" placeholder="Ihre E-Mail*" required>
-          <textarea placeholder="Ihre Nachricht"></textarea>
-          <button type="submit">Senden</button>
-      </form>
-    
+      <form action="sendmail.php" method="post">
+        <input type="text" name="name" placeholder="Ihr Name*" required>
+        <input type="email" name="email" placeholder="Ihre E-Mail*" required>
+        <textarea name="message" class="message-box" placeholder="Ihre Nachricht"></textarea>
+        <button type="submit">Senden</button>
+    </form>
   </div>
-
-
+  
 </div>
 </section>
 
-  <div id="footer-placeholder"></div>
-  <script src="script.js"></script>
+ <!-- Footer einfügen -->
+<link rel="stylesheet" href="Footerstyle.css">
+<div id="footer-placeholder"></div>
+<script src="script.js"></script>
+
 </body>
 </html>

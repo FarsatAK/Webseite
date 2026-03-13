@@ -3,95 +3,141 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FacilityPro Services - Leistungen</title>
+  <title>Gebäudereinigung Services - Leistungen</title>
   <link rel="stylesheet" href="web.css">
 </head>
 <body>
 
   <!-- ===== NAVBAR ===== -->
   <header class="navbar">
-    <div class="logo">ISOU Facility</div>
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Lian Gebäudereinigung Logo">
+  </a>
     <nav>
         <a href="index.html">STARTSEITE</a>
         <a href="services.html">LEISTUNGEN</a>
-        <a href="about.html">ÜBER UNS</a>
+        <a href="aboutus.html">ÜBER UNS</a>
         <a href="contact.html">KONTAKT</a>
     </nav>
-  </header>
+</header>
 
   <!-- ===== HERO ===== -->
   <section class="hero">
     <h1>Unsere Leistungen</h1>
-    <p>Wir bieten professionelle Facility Management Services</p>
+    <p>Wir bieten professionelle Servicedienstleistungen</p>
   </section>
 
   <!-- ===== SERVICES SECTION ===== -->
   <section class="services-container">
 
-    <div class="service-card">
-      <span class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32">
-          <path fill="#d62828" d="M64 48c-8.8 0-16 7.2-16 16v384c0 8.8 7.2 16 16 16h80v-80c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32v80h80c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64z"/>
-        </svg>
-      </span>
-      <div class="card-content">
-        <h3>Gebäudereinigung</h3>
-        <p>Wir reinigen Ihre Räume professionell und zuverlässig.</p>
-      </div>
+     <!-- Gebäudereinigung -->
+  <div class="service-card">
+    <span class="icon">🏢</span>
+    <div class="card-content">
+      <h3>Gebäudereinigung</h3>
+      <p>Regelmäßige und zuverlässige Reinigung für tägliche Sauberkeit. Individuelle Reinigungspläne für Ihre Bedürfnisse.</p>
+      <ul>
+        <li>Tägliche Reinigung</li>
+        <li>Wöchentlicher Service</li>
+        <li>Monatliche Intensivreinigung</li>
+      </ul>
     </div>
+  </div>
 
-    <div class="service-card">
-      <span class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32">
-          <path fill="#d62828" d="M488 128H24c-13.3 0-24 10.7-24 24v208c0 13.3 10.7 24 24 24h464c13.3 0 24-10.7 24-24V152c0-13.3-10.7-24-24-24zm-24 208H48V176h416v160z"/>
-        </svg>
-      </span>
-      <div class="card-content">
-        <h3>Glasreinigung</h3>
-        <p>Saubere Fenster, innen und außen, für ein perfektes Erscheinungsbild.</p>
-      </div>
+  <!-- Glasreinigung -->
+  <div class="service-card">
+    <span class="icon">🪟</span>
+    <div class="card-content">
+      <h3>Glasreinigung</h3>
+      <p>Streifenfreie Reinigung von Fenstern, Glasfassaden und Spiegeloberflächen. Professionelle Ergebnisse ohne Rückstände.</p>
+      <ul>
+        <li>Fassadenreinigung</li>
+        <li>Fensterreinigung</li>
+        <li>Wintergartenreinigung</li>
+      </ul>
     </div>
+  </div>
 
-    <div class="service-card">
-      <span class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32">
-          <path fill="#d62828" d="M502.6 70.6L441.4 9.4c-12.5-12.5-32.8-12.5-45.3 0L392 13.7 498.3 120l4.7-4.7c12.5-12.5 12.5-32.8 0-45.3zM0 352v112c0 13.3 10.7 24 24 24h112c2.1 0 4.2-.3 6.2-.9L448 88.1 423.9 64 88.1 399.8c-.6 2-0.9 4.1-.9 6.2H24c-13.3 0-24-10.7-24-24V352h0z"/>
-        </svg>
-      </span>
-      <div class="card-content">
-        <h3>Baureinigung</h3>
-        <p>Effiziente Reinigung von Baustellen und Neubauten.</p>
-      </div>
+  <!-- Baureinigung -->
+  <div class="service-card">
+    <span class="icon">🏗️</span>
+    <div class="card-content">
+      <h3>Baureinigung</h3>
+      <p>Professionelle Reinigung nach Bauabschluss. Entfernung von Baustaub, Farbresten und Baumaterialrückständen.</p>
+      <ul>
+        <li>Bauendreinigung</li>
+        <li>Neubaureinigung</li>
+        <li>Renovierungsreinigung</li>
+      </ul>
     </div>
+  </div>
 
-    <div class="service-card">
-      <span class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32">
-          <path fill="#d62828" d="M400 64H112c-8.8 0-16 7.2-16 16v352c0 8.8 7.2 16 16 16h288c8.8 0 16-7.2 16-16V80c0-8.8-7.2-16-16-16zM128 400V96h256v304H128z"/>
-        </svg>
-      </span>
-      <div class="card-content">
-        <h3>Unterhaltsreinigung</h3>
-        <p>Regelmäßige Reinigung für Büros, Unternehmen und Wohnräume.</p>
-      </div>
+  <!-- Unterhaltsreinigung -->
+  <div class="service-card">
+    <span class="icon">🧹</span>
+    <div class="card-content">
+      <h3>Unterhaltsreinigung</h3>
+      <p>Regelmäßige und zuverlässige Reinigung für tägliche Sauberkeit. Individuelle Reinigungspläne für Ihre Bedürfnisse.</p>
+      <ul>
+        <li>Tägliche Reinigung</li>
+        <li>Wöchentlicher Service</li>
+        <li>Monatliche Intensivreinigung</li>
+      </ul>
     </div>
+  </div>
 
+  <!-- Spezialreinigung -->
+  <div class="service-card">
+    <span class="icon">✨</span>
+    <div class="card-content">
+      <h3>Spezialreinigung</h3>
+      <p>Individuelle Reinigungslösungen für besondere Anforderungen und Oberflächen.</p>
+      <ul>
+        <li>Maschinenreinigung</li>
+        <li>Graffitientfernung</li>
+        <li>Desinfektion</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="service-card">
+    <span class="icon">📦</span>
+    <div class="card-content">
+      <h3>Umzugshilfe</h3>
+      <p>Professionelle Unterstützung beim Umzug – sicher, effizient und stressfrei.</p>
+      <ul>
+        <li>Verpackung und Transport</li>
+        <li>Möbelaufbau & Abbau</li>
+        <li>Entsorgung</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Gartenreinigung -->
+  <div class="service-card">
+    <span class="icon">🌳</span>
+    <div class="card-content">
+      <h3>Gartenreinigung</h3>
+      <p>Pflege und Reinigung von Gärten, Terrassen und Grünanlagen – für ein gepflegtes Erscheinungsbild.</p>
+      <ul>
+        <li>Laubentfernung</li>
+        <li>Wegreinigung</li>
+        <li>Terrassenreinigung</li>
+      </ul>
+    </div>
+  </div>
   </section>
 
-  <!-- ===== EXTRA CONTENT ===== -->
-  <section class="content-container">
-    <ul>
-      <li>Gebäudereinigung</li>
-      <li>Glasreinigung</li>
-      <li>Teppichreinigung</li>
-      <li>Baureinigung</li>
-      <li>Unterhaltsreinigung</li>
-      <li>Isolierarbeiten</li>
-      <li>Schimmelentfernung</li>
-    </ul>
-  </section>
+  <!-- ===== INFO BOX ===== -->
+<section class="info-box">
+  <h3>Individuelles Angebot anfordern</h3>
+  <p>Wir beraten Sie persönlich und erstellen ein Angebot passend zu Ihren Anforderungen.</p>
+  <p><strong>Kontaktieren Sie uns. Wir beraten Sie gerne!</strong></p>
+</section>
 
-  <div id="footer-placeholder"></div>
-  <script src="script.js"></script>
+<!-- Footer einfügen -->
+<link rel="stylesheet" href="Footerstyle.css">
+<div id="footer-placeholder"></div>
+<script src="script.js"></script>
 </body>
 </html>
