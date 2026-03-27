@@ -36,14 +36,14 @@ try {
  $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
  $mail->Port = 587;
 
- $mail->Username = 'info@xn--lian-gebudereinigung-izb.de'; // volle Mailbox-Adresse
- $mail->Password = ''; // Mailbox-Passwort (Webmail)
+ $mail->Username = 'info@lian-gebaeudereinigung.de'; // volle Mailbox-Adresse
+ $mail->Password = 'Lian450!$'; // Mailbox-Passwort (Webmail)
 
  $mail->CharSet = 'UTF-8';
 
  // Absender/Empfänger
  $mail->setFrom($mail->Username, 'Kontaktformular');
- $mail->addAddress('info@xn--lian-gebudereinigung-izb.de'); // wohin du es erhalten willst
+ $mail->addAddress('info@lian-gebaeudereinigung.de'); // wohin du es erhalten willst
  $mail->addReplyTo($email, $name);
 
  $mail->Subject = 'Kontaktformular: ' . $name;
