@@ -1,0 +1,18 @@
+# Logs
+*.log
+
+# ZIP Dateien
+*.zip
+
+# System Dateien
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Node (falls später)
+node_modules/
+
+# PHP Mailer Logs etc.
+mail.log
