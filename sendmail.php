@@ -37,7 +37,7 @@ try {
  $mail->Port = 587;
 
  $mail->Username = 'info@lian-gebaeudereinigung.de'; // volle Mailbox-Adresse
- $mail->Password = 'Lian450!$'; // Mailbox-Passwort (Webmail)
+ $mail->Password = ''; // Mailbox-Passwort (Webmail)
 
  $mail->CharSet = 'UTF-8';
 
